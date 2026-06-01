@@ -1,0 +1,101 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4faeb; /* Fundo verde bem clarinho */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2e7d32; /* Verde folha */
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 3rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #1b5e20;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #81c784;
+    padding-bottom: 0.5rem;
+}
+
+/* Cards das Práticas */
+.cards-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    background-color: #e8f5e9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #4caf50;
+}
+
+.card h3 {
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+}
+
+/* Seção Interativa */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+#dica-texto {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #1565c0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #1b5e20;
+    color: white;
+    margin-top: 2rem;
+}
